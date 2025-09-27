@@ -1,117 +1,137 @@
-# AI Code Analyzer & Product Research Platform
+# AI Ready Website
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-15-blue.svg)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
 
 **Owner:** Tina Marcus  
 **License:** MIT  
 **Repository:** Open Source Project
 
-A comprehensive AI-powered platform that combines code analysis, web automation, and competitive research capabilities. Built with modern microservices architecture and integrated with cutting-edge MCP (Model Context Protocol) servers for enhanced AI capabilities.
+A sophisticated web application that analyzes websites for AI readiness and optimization. Built with Next.js 15, it provides real-time analysis with beautiful visualizations to help websites prepare for an AI-driven future.
 
-## 🚀 Features
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzZyaXVlOXoyaGJmMGV5YzBlbXNod2U5emRrZ2lqZTM1eGI1aHlzZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/irNt0XtSKmenMRqMre/giphy.gif" width="100%" alt="AI Ready Website">
 
-### Code Analysis & Improvement
-- **AI-Powered Code Review**: Automated analysis with best practices suggestions
-- **Performance Optimization**: Identify bottlenecks and suggest improvements  
-- **Security Analysis**: Vulnerability detection and security recommendations
-- **Code Generation**: AI-powered code suggestions and completions
-- **Refactoring Suggestions**: Intelligent code restructuring recommendations
-- **Documentation Generation**: Auto-generate comprehensive code documentation
+## 🚀 What It Does
 
-### Product Research & Competitive Analysis
-- **Market Research**: Comprehensive market analysis using search and web data
-- **Competitive Intelligence**: Monitor competitors and analyze their strategies
-- **Technology Trends**: Track emerging technologies and frameworks
-- **User Feedback Analysis**: Analyze user reviews and feedback patterns
-- **Feature Comparison**: Compare features across competing products
-- **Pricing Analysis**: Monitor pricing strategies and market positioning
+AI Ready Website analyzes any website for "AI readiness" - how well its content and structure enable AI systems and search agents to understand, summarize, and answer questions about the business. It produces a readiness score, prioritized recommendations, and visual metrics across multiple dimensions.
 
-### Web Automation & Analysis
-- **AI Ready Website Analysis**: Evaluate websites for AI readiness and optimization
-- **Automated Testing**: Browser automation with Playwright integration
-- **Content Extraction**: Intelligent web scraping and data collection
-- **Performance Monitoring**: Real-time website performance analysis
-- **Accessibility Auditing**: Automated accessibility compliance checking
+### Core Features
 
-### Search & Discovery
-- **Advanced Search**: Powerful search capabilities with AI insights
-- **Real-time Research**: Live data gathering and trend analysis
-- **Multi-source Intelligence**: Aggregate data from multiple sources
-- **AI Synthesis**: Intelligent data processing and insight generation
+- **🧠 AI Readiness Analysis**: Comprehensive scoring across 7 key metrics
+- **📊 Real-time Visualization**: Beautiful charts and progress indicators
+- **🎯 Actionable Recommendations**: Specific steps to improve AI optimization
+- **🔍 Technical Analysis**: Deep dive into HTML structure, metadata, and accessibility
+- **📈 Performance Insights**: Readability scoring and content quality analysis
+- **🌐 Web Standards Check**: Robots.txt, sitemap.xml, and cutting-edge LLMs.txt support
 
-## 🏗️ Architecture
+## 🎯 Why This Matters
 
-This platform uses a modern microservices architecture with the following core services:
+AI is mediating search and discovery. Websites that are clear, structured, current, and well-labeled earn better representation in AI answers, reduce misinformation risk, and convert AI-driven traffic more effectively.
 
-- **API Gateway**: Centralized routing and authentication
-- **Analysis Service**: Core AI analysis capabilities
-- **Web Automation Service**: Browser automation and web analysis
-- **Search Service**: Advanced search and research capabilities
-- **Code Analysis Service**: Specialized code quality and security analysis
-- **Product Research Service**: Market and competitive intelligence
-- **Model Management Service**: AI model orchestration and optimization
-- **Data Service**: Data persistence and management
-- **Visualization Service**: Dashboard and reporting capabilities
-- **Notification Service**: Real-time alerts and updates
+## 📊 Analysis Metrics
+
+### 1. **Heading Hierarchy** (High Impact)
+- Checks for proper H1-H6 structure
+- Identifies multiple H1s or skipped heading levels
+- Ensures logical content organization
+
+### 2. **Content Readability** (High Impact)
+- Uses Flesch-Kincaid scoring algorithm
+- Evaluates sentence complexity and word difficulty
+- Ensures AI can easily understand content
+
+### 3. **Metadata Quality** (Medium Impact)
+- Analyzes title tags, descriptions, and social media tags
+- Checks for optimal length and content
+- Validates author and publish date information
+
+### 4. **Semantic HTML** (Medium Impact)
+- Evaluates use of HTML5 semantic elements
+- Checks for proper ARIA roles and accessibility
+- Recognizes modern framework implementations
+
+### 5. **Accessibility** (Medium Impact)
+- Validates alt text on images
+- Checks for ARIA labels and descriptions
+- Ensures language attributes are present
+
+### 6. **Robots.txt** (Low Impact)
+- Verifies crawler directives
+- Checks for sitemap references
+- Ensures proper search engine guidance
+
+### 7. **LLMs.txt** (Cutting-edge)
+- Checks for AI usage permission files
+- Future-proofs for AI crawler guidelines
+- Industry-first feature for AI optimization
 
 ## 🛠️ Technology Stack
 
-### Core Technologies
-- **Backend**: Node.js, Express.js, TypeScript
-- **Frontend**: Next.js 15, React, Tailwind CSS
-- **Database**: PostgreSQL, Redis, MongoDB
-- **AI/ML**: OpenAI GPT-5, Anthropic Claude
-- **Automation**: Playwright, Firecrawl
-- **Search**: Brave Search API
+### Frontend
+- **Next.js 15** - React framework with App Router
+- **React 18** - Modern React with hooks and concurrent features
+- **TypeScript** - Type-safe development
+- **Tailwind CSS** - Utility-first styling
+- **Framer Motion** - Smooth animations and transitions
+- **Radix UI** - Accessible component primitives
+- **PIXI.js** - Advanced graphics and animations
 
-### MCP Integrations
-- **Playwright MCP Server**: Browser automation and testing
-- **Brave Search MCP Server**: Advanced search capabilities
-- **Firecrawl Integration**: Web scraping and content extraction
+### Backend & APIs
+- **Next.js API Routes** - Serverless backend functions
+- **Firecrawl API** - Web scraping and content extraction
+- **OpenAI API** - AI-powered analysis and recommendations
+- **Custom Algorithms** - Readability scoring and semantic analysis
 
-### Infrastructure
-- **Containerization**: Docker, Kubernetes
-- **Monitoring**: Prometheus, Grafana, Jaeger
-- **CI/CD**: GitHub Actions
-- **Security**: OAuth2, JWT, RBAC
+### Development Tools
+- **ESLint** - Code linting and quality
+- **Prettier** - Code formatting
+- **PostCSS** - CSS processing
+- **Autoprefixer** - CSS vendor prefixing
 
 ## 📁 Project Structure
 
 ```
-ai-code-analyzer-platform/
-├── docs/                           # Documentation
-│   ├── ARCHITECTURE_DESIGN.md     # Complete architecture documentation
-│   ├── BRAVE_SEARCH_IMPLEMENTATION.md
-│   ├── CODE_ANALYSIS_IMPLEMENTATION.md
-│   ├── PLAYWRIGHT_IMPLEMENTATION.md
-│   └── PROJECT_OVERVIEW.md
-├── apps/                          # Applications
-│   └── ai-ready-website/          # AI Ready Website Analyzer
-├── tools/                         # Development tools and utilities
-├── examples/                      # Usage examples and samples
-├── .env.example                   # Environment configuration template
-├── .gitignore                     # Git ignore rules
-├── LICENSE                        # MIT License
-├── package.json                   # Project dependencies and scripts
-└── README.md                      # This file
+ai-ready-website/
+├── app/                          # Next.js 15 App Router
+│   ├── api/                     # API endpoints
+│   │   ├── ai-readiness/        # Main analysis endpoint
+│   │   ├── ai-analysis/         # Additional AI analysis
+│   │   ├── check-config/        # API key validation
+│   │   └── check-llms/          # LLM availability check
+│   ├── layout.tsx               # Root layout
+│   └── page.tsx                 # Home page
+├── components/                   # React components
+│   ├── app/(home)/sections/     # Page sections
+│   ├── shared/                  # Reusable components
+│   └── ui/                      # UI primitives
+├── styles/                      # CSS and styling
+│   ├── design-system/           # Design system styles
+│   └── components/              # Component-specific styles
+├── public/                      # Static assets
+├── hooks/                       # Custom React hooks
+├── utils/                       # Utility functions
+├── .env.example                 # Environment template
+├── package.json                 # Dependencies and scripts
+├── tailwind.config.ts           # Tailwind configuration
+├── tsconfig.json                # TypeScript configuration
+└── README.md                    # This file
 ```
 
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Node.js 18+ 
-- npm 8+
-- PostgreSQL (optional)
-- Redis (optional)
+- **Node.js 18+**
+- **npm 8+**
+- **API Keys** (see setup guide)
 
 ### Installation
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/tinamarcus/ai-code-analyzer-platform.git
-   cd ai-code-analyzer-platform
+   git clone https://github.com/Tinamarcus/ai-analyze.git
+   cd ai-analyze
    ```
 
 2. **Install dependencies**
@@ -119,101 +139,160 @@ ai-code-analyzer-platform/
    npm install
    ```
 
-3. **Configure environment**
+3. **Set up environment**
    ```bash
-   cp .env.example .env
-   # Edit .env with your API keys and configuration
+   cp .env.example .env.local
+   # Edit .env.local with your API keys
    ```
 
-4. **Start the platform**
+4. **Start development server**
    ```bash
    npm run dev
    ```
 
+5. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## 🔧 Configuration
+
 ### Required API Keys
 
-You'll need the following API keys (see `.env.example` for configuration):
+Create a `.env.local` file with the following:
 
-- **OpenAI API Key**: For AI analysis and code generation
-- **Brave Search API Key**: For advanced search capabilities  
-- **Firecrawl API Key**: For web scraping and content extraction
-- **Anthropic API Key** (optional): Alternative AI provider
+```env
+# OpenAI API Key (required)
+OPENAI_API_KEY=sk-proj-your-openai-key-here
 
-## 📖 Documentation
-
-- [Complete Architecture Design](docs/ARCHITECTURE_DESIGN.md) - Comprehensive system architecture
-- [Playwright MCP Integration](docs/PLAYWRIGHT_IMPLEMENTATION.md) - Browser automation setup
-- [Brave Search Integration](docs/BRAVE_SEARCH_IMPLEMENTATION.md) - Search capabilities
-- [Code Analysis Implementation](docs/CODE_ANALYSIS_IMPLEMENTATION.md) - Code analysis features
-- [Project Overview](docs/PROJECT_OVERVIEW.md) - Business use cases and overview
-
-## 🎯 Use Cases
-
-### For Developers
-- Automated code review and quality analysis
-- Performance optimization recommendations
-- Security vulnerability detection
-- Documentation generation
-- Code refactoring suggestions
-
-### For Product Teams
-- Competitive market analysis
-- Technology trend monitoring
-- User feedback analysis
-- Feature comparison studies
-- Pricing strategy research
-
-### For Businesses
-- Website AI readiness assessment
-- Market intelligence gathering
-- Competitive positioning analysis
-- Technology adoption insights
-- Automated research workflows
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our contributing guidelines:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-### Development Setup
-
-```bash
-# Install dependencies
-npm install
-
-# Run tests
-npm test
-
-# Run linting
-npm run lint
-
-# Start development server
-npm run dev
+# Firecrawl API Key (required)
+FIRECRAWL_API_KEY=fc-your-firecrawl-key-here
 ```
 
-## 📝 License
+### Getting API Keys
+
+#### OpenAI API Key
+1. Go to [platform.openai.com](https://platform.openai.com)
+2. Sign up or log in
+3. Navigate to API Keys section
+4. Create a new secret key
+5. Copy the key (starts with `sk-proj-`)
+
+#### Firecrawl API Key
+1. Go to [firecrawl.dev](https://firecrawl.dev)
+2. Sign up for a free account
+3. Get your API key from the dashboard
+4. Copy the key (starts with `fc-`)
+
+## 🎯 Usage
+
+### Basic Analysis
+1. **Enter a website URL** in the input field
+2. **Click "Analyze"** to start the analysis
+3. **Watch real-time progress** as the system evaluates the site
+4. **Review results** with scores, recommendations, and insights
+
+### Understanding Results
+- **Overall Score**: 0-100 rating of AI readiness
+- **Category Scores**: Individual scores for each metric
+- **Recommendations**: Specific actions to improve
+- **Technical Details**: In-depth analysis of each component
+
+### Export Options
+- **Screenshots**: Save visual results
+- **Reports**: Download detailed analysis (coming soon)
+- **Share**: Generate shareable links (coming soon)
+
+## 🏢 Business Use Cases
+
+### For Website Owners
+- **AI Optimization**: Understand how AI systems see your site
+- **SEO Benefits**: Better AI readiness = better search visibility
+- **Competitive Analysis**: Compare against industry standards
+- **Performance Tracking**: Monitor improvements over time
+
+### For Digital Agencies
+- **Client Reports**: Professional AI readiness audits
+- **Lead Generation**: Offer AI optimization as a premium service
+- **Competitive Intelligence**: Analyze competitor websites
+- **Service Upselling**: Ongoing optimization retainers
+
+### For Developers
+- **Technical Insights**: Understand implementation details
+- **Best Practices**: Learn AI-friendly development patterns
+- **Quality Assurance**: Automated website analysis
+- **Performance Monitoring**: Track technical improvements
+
+## 🎨 Features
+
+### Real-time Analysis
+- **Live Progress Updates**: See analysis steps in real-time
+- **Error Handling**: Graceful failures with helpful messages
+- **Timeout Management**: Won't hang on slow or problematic sites
+
+### Beautiful Interface
+- **Animated Hero Section**: Engaging ASCII art and flame effects
+- **Interactive Dashboard**: Rich visualizations and charts
+- **Responsive Design**: Works perfectly on all devices
+- **Dark/Light Mode**: Automatic theme switching
+
+### Advanced Analytics
+- **Weighted Scoring**: Intelligent algorithms, not simple pass/fail
+- **Domain Reputation**: Recognizes trusted and authoritative sites
+- **Content Quality Signals**: Rewards well-structured content
+- **Future-proofing**: Checks for emerging standards like LLMs.txt
+
+## 🚀 Development
+
+### Available Scripts
+```bash
+npm run dev          # Start development server
+npm run build        # Build for production
+npm run start        # Start production server
+npm run lint         # Run ESLint
+npm run lint:fix     # Fix ESLint issues
+```
+
+### Code Structure
+- **Components**: Modular React components with TypeScript
+- **API Routes**: Serverless functions for backend logic
+- **Styling**: Tailwind CSS with custom design system
+- **Animations**: Framer Motion for smooth interactions
+
+### Contributing
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
+
+## 📚 Documentation
+
+- **[Setup Guide](SETUP_GUIDE.md)** - Complete installation and configuration guide
+- **[Contributing](CONTRIBUTING.md)** - How to contribute to the project
+- **[API Documentation](docs/)** - API endpoint documentation (coming soon)
+
+## 🤝 Support
+
+### Getting Help
+- **GitHub Issues**: [Report bugs or ask questions](https://github.com/Tinamarcus/ai-analyze/issues)
+- **GitHub Discussions**: [Community discussions](https://github.com/Tinamarcus/ai-analyze/discussions)
+- **Email**: [Contact Tina Marcus](mailto:contact@tinamarcus.dev)
+
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
-- OpenAI for GPT-5 API
-- Brave for Search API
-- Microsoft for Playwright
-- Firecrawl for web scraping capabilities
-- The open-source community for inspiration and tools
-
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/tinamarcus/ai-code-analyzer-platform/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/tinamarcus/ai-code-analyzer-platform/discussions)
-- **Email**: [Contact Tina Marcus](mailto:contact@tinamarcus.dev)
+- **Firecrawl** - Web scraping and content extraction
+- **OpenAI** - AI analysis and recommendations
+- **Next.js Team** - Amazing React framework
+- **Vercel** - Deployment and hosting platform
+- **Open Source Community** - Inspiration and tools
 
 ---
+
+**🎉 Ready to analyze your website for AI readiness?** 
+
+Start by entering a URL and see how well your site is optimized for the AI-powered future!
 
 **Made with ❤️ by Tina Marcus**
