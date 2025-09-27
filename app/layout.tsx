@@ -12,8 +12,8 @@ const robotoMono = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Is Your Website AI Ready?",
-  description: "UI components and design system for Firecrawl",
+  title: "Tina - Professional AI Website Analysis",
+  description: "Analyze websites for AI readiness and optimization with Tina's advanced analysis platform",
   icons: {
     icon: "/favicon.png",
   },

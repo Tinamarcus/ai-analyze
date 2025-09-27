@@ -1,7 +1,7 @@
 {
-  "name": "ai-ready-website",
+  "name": "tina",
   "version": "1.0.0",
-  "description": "AI Ready Website - Analyze websites for AI readiness and optimization",
+  "description": "Tina - Professional AI Website Analysis Platform",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -89,16 +89,16 @@
   },
   "homepage": "https://github.com/Tinamarcus/ai-analyze#readme",
   "keywords": [
-    "ai",
-    "website-analysis",
-    "ai-readiness",
+    "tina",
+    "ai-analysis",
+    "website-optimization",
+    "professional-tools",
     "seo",
     "accessibility",
     "nextjs",
     "react",
     "typescript",
-    "firecrawl",
-    "openai"
+    "ai-platform"
   ],
   "author": "Tina Marcus",
   "license": "MIT"
