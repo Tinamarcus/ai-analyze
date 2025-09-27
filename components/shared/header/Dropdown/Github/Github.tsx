@@ -8,7 +8,8 @@ export default function HeaderDropdownGithub() {
       </div>
 
       <div className="text-label-large">
-        Tina - Professional AI Analysis Platform
+        Tina is open source. <br />
+        Star us to show your support!
       </div>
     </div>
   );

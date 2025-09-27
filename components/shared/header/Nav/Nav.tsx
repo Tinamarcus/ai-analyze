@@ -106,7 +106,7 @@ export const NAV_ITEMS = [
                   />
                 ),
                 label: "MCP",
-                description: "Connect Firecrawl to agents",
+                description: "Connect Tina to agents",
                 href: "https://docs.firecrawl.dev/features/mcp",
                 iconClassName: "-mt-1",
               },
@@ -172,7 +172,7 @@ export const NAV_ITEMS = [
         sideItem={{
           icon: <ArrowRight />,
           label: "Customer stories",
-          description: "Browse Firecrawl success stories",
+          description: "Browse Tina success stories",
           href: "/blog/category/customer-stories",
         }}
         sideLabel="Customer Stories"
@@ -268,7 +268,7 @@ export const NAV_ITEMS = [
               {
                 icon: <Changelog />,
                 label: "Changelog",
-                description: "Latest APl updates for Firecrawl",
+                description: "Latest API updates for Tina",
                 href: "/changelog",
               },
               {
@@ -299,7 +299,7 @@ export const NAV_ITEMS = [
               {
                 icon: <MCPIcon />,
                 label: "MCP",
-                description: "Connect Firecrawl to agents",
+                description: "Connect Tina to agents",
                 href: "https://docs.firecrawl.dev/features/mcp",
               },
             ],
@@ -308,9 +308,9 @@ export const NAV_ITEMS = [
         sideContent={<HeaderDropdownGithub />}
         sideItem={{
           icon: <ArrowRight />,
-          label: "See Github",
-          description: "View the repository",
-          href: "https://github.com/firecrawl/firecrawl",
+          label: "View Source",
+          description: "Tina's GitHub repository",
+          href: "https://github.com/Tinamarcus/ai-analyze",
         }}
         sideLabel="Open Source"
       />

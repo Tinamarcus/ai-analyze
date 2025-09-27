@@ -7,12 +7,12 @@ export default function HeaderGithubClient() {
   return (
     <a
       className="contents"
-      href="https://github.com/firecrawl/firecrawl"
+      href="https://github.com/Tinamarcus/ai-analyze"
       target="_blank"
     >
       <Button variant="tertiary">
         <GithubIcon />
-        21.5k
+        Tina
       </Button>
     </a>
   );
