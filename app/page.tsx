@@ -185,7 +185,7 @@ export default function StyleGuidePage() {
                     href="#"
                     onClick={(e) => e.preventDefault()}
                   >
-                    Powered by Firecrawl.
+                    Powered by Tina.
                   </Link>
                 </motion.div>
               ) : (
