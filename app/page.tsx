@@ -139,15 +139,15 @@ export default function StyleGuidePage() {
               </div>
               
               <div className="flex gap-8">
-                {/* GitHub Template Button */}
+                {/* Tina GitHub Button */}
                 <a
                   className="contents"
-                  href="https://github.com/firecrawl/ai-ready-website"
+                  href="https://github.com/Tinamarcus/ai-analyze"
                   target="_blank"
                 >
                   <ButtonUI variant="tertiary">
                     <GithubIcon />
-                    Use this Template
+                    View Source
                   </ButtonUI>
                 </a>
               </div>
